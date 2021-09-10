@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('message', msg => {
 	try{
 		switch (msg.content) {
-			case "!frog":
+			case "!froggy":
 				const embed3 = new MessageEmbed()
 					.setTitle("FROGGY TOAD!")
 					.setColor("blurple")
